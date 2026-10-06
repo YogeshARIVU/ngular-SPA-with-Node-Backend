@@ -1,0 +1,46 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "userId": "user1",
+            "password": "password123",
+            "role": "General User",
+            "name": "John Doe",
+            "email": "john@example.com"
+        },
+        {
+            "id": 2,
+            "userId": "admin1",
+            "password": "admin123",
+            "role": "Admin",
+            "name": "Admin User",
+            "email": "admin@example.com"
+        }
+    ],
+    "records": [
+        {
+            "id": 1,
+            "userId": 1,
+            "title": "Quarterly Report",
+            "status": "Completed"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "title": "Expense Submission",
+            "status": "Pending"
+        },
+        {
+            "id": 3,
+            "userId": 2,
+            "title": "All System Logs",
+            "status": "Archived"
+        },
+        {
+            "id": 4,
+            "userId": 2,
+            "title": "User Access Audit",
+            "status": "In Progress"
+        }
+    ]
+}
